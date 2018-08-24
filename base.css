@@ -1,0 +1,35 @@
+/*
+// COLOR PALETTE
+// Beige: #f5efc0
+// Light orange: #ff8476
+// Sky blue: #b0e89e  
+//
+*/
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+
+/* BODY */
+body {
+    padding: 0;
+    margin: 0;
+}
+/* BODY */
+
+/* HEADER */
+
+#siteHeader {
+    padding-left: 20px;
+    font-family: 'Bree Serif', serif;
+    letter-spacing: 1px;
+    font-size: 50px;
+    color: #ff8476; 
+    background-color: ;
+    display: flex;
+}
+
+.navigator {
+    display: flex;
+    color: #ff8476; 
+    font-family: 'Bree Serif', serif;
+
+}
+/* HEADER */
