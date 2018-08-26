@@ -46,8 +46,8 @@ nav a {
 
 nav a:not(:last-child) {
     border-width: 0 1px 0 0;
-    border-style: solid;
     border-color: #ff8476;
+    border-style: solid;
 }
  
 nav a:hover,
@@ -56,3 +56,10 @@ nav a:focus {
 }
 
 /* NAV */
+
+/* FOOTER */
+footer {
+    text-align: center;
+    background-color: #b0e89e;
+}
+/* FOOTER */
