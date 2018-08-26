@@ -18,16 +18,17 @@ body {
 
 
 #siteHeader {
-    padding-left: 20px;
+    padding: 20px;
+    margin: 0;
     font-family: 'Bree Serif', serif;
-    letter-spacing: 1px;
+    letter-spacing: 5px;
     font-size: 30px;
     color: #ff8476; 
-    background-color: ;
-    display: flex;
-    height: 100px;
-    width: 100%;
-    text-align: left;
+    text-align: center;
+    text-transform: uppercase;
+}
+.icon {
+    
 }
 /* HEADER */
 
