@@ -57,6 +57,15 @@ nav a:focus {
 
 /* NAV */
 
+/* PARAGRAPH */
+p {
+    padding: 0;
+    margin: 0.5px;
+    background-color: #ff8476;
+    text-align: center;
+
+}
+/* PARAGRAPH */
 /* FOOTER */
 footer {
     text-align: center;
