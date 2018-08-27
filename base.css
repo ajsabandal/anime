@@ -26,6 +26,7 @@ body {
     color: #ff8476; 
     text-align: center;
     text-transform: uppercase;
+
 }
 .icon {
     
@@ -59,12 +60,10 @@ nav a:focus {
 /* NAV */
 
 /* PARAGRAPH */
-p {
+.image-holder img {
+    width: 100%;
     padding: 0;
-    margin: 0.5px;
-    background-color: #ff8476;
-    text-align: center;
-
+    margin: 0;
 }
 /* PARAGRAPH */
 /* FOOTER */
