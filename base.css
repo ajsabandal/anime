@@ -21,8 +21,8 @@ body {
     padding: 20px;
     margin: 0;
     font-family: 'Bree Serif', serif;
-    letter-spacing: 5px;
-    font-size: 30px;
+    letter-spacing: 20px;
+    font-size: 100px;
     color: #ff8476; 
     text-align: center;
     text-transform: uppercase;
@@ -43,7 +43,10 @@ nav a {
     flex: 1;
     text-align: center;
     padding: 10px;
-    background-color:#b0e89e;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    border-top: #ff8476;
 }
 
 nav a:not(:last-child) {
