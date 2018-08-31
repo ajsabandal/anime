@@ -72,11 +72,20 @@ nav a:focus {
 
 /* GRID */
 .grid {
+    text-align: center;
+    background-color: white;
+}
+.grid img {
+    width: 200px;
+    margin-top: 5px;
+}
+
+.grid-container {
     display: grid;
-    margin: 0;
-    padding: 5px;
-    grid-template-columns: 250px 250px;
-    grid-gap: 20px;
+    padding: 2px;
+    background-color: #ff8476;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 2px;
 }
 
 /* GRID */
