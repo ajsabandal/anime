@@ -3,16 +3,22 @@
 // Beige: #f5efc0
 // Light orange: #ff8476
 // Sky blue: #b0e89e  
-//
-*/
-@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+// Gray: #c0c5ce
+// Dark Gray: #4f5b66
+*/ 
 
-/* BODY */
+/* IMPORT S */
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url('https://fonts.googleapis.com/css?family=Uncial+Antiqua');
+@import url('https://fonts.googleapis.com/css?family=El+Messiri');
+/* IMPORT E */
+
+/* BODY S */
 body {
     padding: 0;
     margin: 0;
 }
-/* BODY */
+/* BODY E */
 
 /* HEADER */
 
@@ -20,10 +26,10 @@ body {
 #siteHeader {
     padding: 20px;
     margin: 0;
-    font-family: 'Bree Serif', serif;
+    font-family: 'Uncial Antiqua', cursive;
     letter-spacing: 20px;
     font-size: 100px;
-    color: #ff8476; 
+    color: #4f5b66; 
     text-align: center;
     text-transform: uppercase;
 
@@ -33,7 +39,7 @@ body {
 }
 /* HEADER */
 
-/* NAV */
+/* NAV S */
 nav {
     display: flex;
 }
@@ -43,32 +49,49 @@ nav a {
     flex: 1;
     text-align: center;
     padding: 10px;
-    color: black;
+    color: #343d46;
     text-transform: uppercase;
     letter-spacing: 10px;
-    border-top: #ff8476;
+    font-weight: bold;
+    font-family: 'Audiowide', cursive;
 }
 
 nav a:not(:last-child) {
     border-width: 0 1px 0 0;
-    border-color: #ff8476;
+    border-color: 	#ffdfba;
     border-style: solid;
 }
  
 nav a:hover,
 nav a:focus {
-    background-color: #9e9e9e;
+    background-color: #c0c5ce;
 }
 
-/* NAV */
+/* NAV E */
 
-/* PARAGRAPH */
+/* PARAGRAPH S */
+h2 {
+    font-family: 'El Messiri', sans-serif;
+    letter-spacing: 2px;
+    color: #343d46;
+}
+
+.genre {
+    background-color: aqua;
+}
+
+.discription {
+    background-color: #b0e89e;
+}
+/* PARAGRAPH E */
+
+/* IMAGE S */
 .image-holder img {
     width: 100%;
     padding: 0;
     margin: 0;
 }
-/* PARAGRAPH */
+/* IMAGE E */
 
 /* GRID */
 .grid {
@@ -77,13 +100,14 @@ nav a:focus {
 }
 .grid img {
     width: 200px;
-    margin-top: 5px;
+    height: 250px;
+    margin-top: 20px;    
 }
 
 .grid-container {
     display: grid;
     padding: 2px;
-    background-color: #ff8476;
+    background-color: 	#ffdfba;
     grid-template-columns: auto auto auto auto;
     grid-gap: 2px;
 }
