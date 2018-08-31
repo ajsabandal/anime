@@ -69,6 +69,17 @@ nav a:focus {
     margin: 0;
 }
 /* PARAGRAPH */
+
+/* GRID */
+.grid {
+    display: grid;
+    margin: 0;
+    padding: 5px;
+    grid-template-columns: 250px 250px;
+    grid-gap: 20px;
+}
+
+/* GRID */
 /* FOOTER */
 footer {
     text-align: center;
