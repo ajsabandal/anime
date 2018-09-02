@@ -77,11 +77,17 @@ h2 {
 }
 
 .genre {
-    background-color: aqua;
+    background-color: #ffdfba;
+    padding: 10px;
+
 }
 
 .discription {
-    background-color: #b0e89e;
+    background-color: white;
+    color: #343d46;
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
 }
 /* PARAGRAPH E */
 
@@ -116,6 +122,6 @@ h2 {
 /* FOOTER */
 footer {
     text-align: center;
-    background-color: #b0e89e;
+    background-color: white;
 }
 /* FOOTER */
