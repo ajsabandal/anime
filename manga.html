@@ -37,8 +37,8 @@
 
         <div class="grid a">
             <div class="read-button">
-                <button> Read </button>
-                <button><i class="far fa-heart"></i></button>
+                <button id="aot-read"> Read </button>
+                <button id="aot-heart"><i class="far fa-heart"></i></button>
             </div>
             <img src="img/attackontitan.jpg" alt="Attack On Titan" title="Attack On Titan" />
             <h2> Attack On Titan </h2>
@@ -185,6 +185,19 @@
     </div>
     <!-- Grid Section End -->
 
+    <script>
+    "use strict";   
+    let aotRead = document.getElementById("aot-read");
+    let aotHeart = document.getElementById("aot-heart");
+    aotRead.addEventListener('click', function(){
+         alert("okay, wait a seconds!");
+    });
+    aotHeart.addEventListener('click', function(){
+        alert("thank you for liking this manga!")
+    });
+
+
+    </script>
 
 
     <footer>
