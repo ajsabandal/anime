@@ -37,8 +37,8 @@
 
         <div class="grid a">
             <div class="read-button">
-                <button id="aot-read"> Read </button>
-                <button id="aot-heart"><i class="far fa-heart"></i></button>
+                <button id="you-read"> Read </button>
+                <button id="you-heart"><i class="far fa-heart"></i></button>
             </div>
             <img src="img/attackontitan.jpg" alt="Attack On Titan" title="Attack On Titan" />
             <h2> Attack On Titan </h2>
@@ -54,10 +54,10 @@
         </div>
 
         <div class="grid b">
-            <div class="read-button">
-                <button> Read </button>
-                <button><i class="far fa-heart"></i></button>
-            </div>
+                <div class="read-button">
+                        <button id="you-read"> Read </button>
+                        <button id="you-heart"><i class="far fa-heart"></i></button>
+                    </div>
             <img src="img/myheroacademia.png" alt="My Hero Academia" title="My Hero Academia" />
             <h2> My Hero Academia </h2>
             <p class="genre">
@@ -71,10 +71,10 @@
         </div>
 
         <div class="grid c">
-            <div class="read-button">
-                <button> Read </button>
-                <button><i class="far fa-heart"></i></button>
-            </div>
+                <div class="read-button">
+                        <button id="you-read"> Read </button>
+                        <button id="you-heart"><i class="far fa-heart"></i></button>
+                    </div>
             <img src="img/steinsgate.png" alt="Steinsgate" title="Steinsgate" />
             <h2> Steins;Gate</h2>
             <p class="genre">
@@ -89,10 +89,10 @@
         </div>
 
         <div class="grid d">
-            <div class="read-button">
-                <button> Read </button>
-                <button><i class="far fa-heart"></i></button>
-            </div>
+                <div class="read-button">
+                        <button id="you-read"> Read </button>
+                        <button id="you-heart"><i class="far fa-heart"></i></button>
+                    </div>
             <img src="img/rezero.jpg" alt="Re;Zero" title="Re;Zero" />
             <h2> Re;Zero </h2>
             <p class="genre">
@@ -107,10 +107,10 @@
 
         </div>
         <div class="grid e">
-            <div class="read-button">
-                <button> Read </button>
-                <button><i class="far fa-heart"></i></button>
-            </div>
+                <div class="read-button">
+                        <button id="you-read"> Read </button>
+                        <button id="you-heart"><i class="far fa-heart"></i></button>
+                    </div>
             <img src="img/konosuba.jpg" alt="Konosuba" title="Konosuba" />
             <h2> Konosuba </h2>
             <p class="genre">
@@ -125,10 +125,10 @@
             </p>
         </div>
         <div class="grid f">
-            <div class="read-button">
-                <button> Read </button>
-                <button><i class="far fa-heart"></i></button>
-            </div>
+                <div class="read-button">
+                        <button id="you-read"> Read </button>
+                        <button id="you-heart"><i class="far fa-heart"></i></button>
+                    </div>
             <img src="img/haikyuu.jpg" alt="Haikyuu" title="Haikyuu" />
             <h2> Haikyuu </h2>
             <p class="genre">
@@ -144,10 +144,10 @@
             </p>
         </div>
         <div class="grid g">
-            <div class="read-button">
-                <button> Read </button>
-                <button><i class="far fa-heart"></i></button>
-            </div>
+                <div class="read-button">
+                        <button id="you-read"> Read </button>
+                        <button id="you-heart"><i class="far fa-heart"></i></button>
+                    </div>
             <img src="img/korukonobasket.png" alt="Kuroko No Basket" title="Kuroko No Basket" />
             <h2> Kuroko No Basket </h2>
             <p class="genre">
@@ -165,10 +165,10 @@
         </div>
 
         <div class="grid h">
-            <div class="read-button">
-                <button> Read </button>
-                <button><i class="far fa-heart"></i></button>
-            </div>
+                <div class="read-button">
+                        <button id="you-read"> Read </button>
+                        <button id="you-heart"><i class="far fa-heart"></i></button>
+                    </div>
             <img src="img/hanebado.jpg" alt="Hanebado" title="Hanebado" />
             <h2> Hanebado </h2>
             <p class="genre">
@@ -187,12 +187,12 @@
 
     <script>
     "use strict";   
-    let aotRead = document.getElementById("aot-read");
-    let aotHeart = document.getElementById("aot-heart");
-    aotRead.addEventListener('click', function(){
-         alert("okay, wait a seconds!");
+    let youRead = document.getElementById("you-read");
+    let youHeart = document.getElementById("you-heart");
+    youRead.addEventListener('click', function(){
+         alert("okay, wait a second!");
     });
-    aotHeart.addEventListener('click', function(){
+    youHeart.addEventListener('click', function(){
         alert("thank you for liking this manga!")
     });
 

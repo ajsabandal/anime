@@ -71,7 +71,7 @@ nav a:focus {
 
 /* PARAGRAPH S */
 
-h1 {
+h1, h3 {
     text-align: center;
     padding: 5px;
     margin: 0; 
