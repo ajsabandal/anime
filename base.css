@@ -34,9 +34,7 @@ body {
     text-transform: uppercase;
 
 }
-.icon {
-    
-}
+
 /* HEADER */
 
 /* NAV S */
@@ -71,7 +69,7 @@ nav a:focus {
 
 /* PARAGRAPH S */
 
-h1, h3 {
+h1 {
     text-align: center;
     padding: 5px;
     margin: 0; 
@@ -101,6 +99,13 @@ h2 {
     padding: 10px;
     margin: 10px;
     text-align: justify;
+}
+
+.rating {
+    padding: 0;
+    margin-right: 200px;
+    color: #343d46;
+    font-family: 'El Messiri', sans-serif;
 }
 /* PARAGRAPH E */
 
