@@ -32,6 +32,7 @@ body {
     color: #4f5b66; 
     text-align: center;
     text-transform: uppercase;
+    background-color: 	#ffdfba;
 
 }
 
@@ -40,6 +41,7 @@ body {
 /* NAV S */
 nav {
     display: flex;
+    background-color: #ffdfba;
 }
 
 nav a {
@@ -56,7 +58,7 @@ nav a {
 
 nav a:not(:last-child) {
     border-width: 0 1px 0 0;
-    border-color: 	#ffdfba;
+    border-color: #343d46;
     border-style: solid;
 }
  
@@ -73,9 +75,9 @@ h1 {
     text-align: center;
     padding: 5px;
     margin: 0; 
-    background-color: #ffdfba;
+    background-color: #536872;
     font-family: 'Audiowide', cursive;
-    color: #343d46;
+    color: #ffdfba;
     text-transform: uppercase;
     letter-spacing: 10px;
     font-size: 15px;
@@ -84,7 +86,8 @@ h1 {
 h2 {
     font-family: 'El Messiri', sans-serif;
     letter-spacing: 2px;
-    color: #343d46;
+    color: #ffdfba;
+    background-color: #536872;
 }
 
 .genre {
@@ -94,8 +97,7 @@ h2 {
 }
 
 .discription {
-    background-color: white;
-    color: #343d46;
+    color: #c0c5ce;
     padding: 10px;
     margin: 10px;
     text-align: justify;
@@ -103,8 +105,9 @@ h2 {
 
 .rating {
     padding: 0;
-    margin-right: 200px;
+    margin-right: 0;
     color: #343d46;
+    background-color: #ffdfba;
     font-family: 'El Messiri', sans-serif;
 }
 /* PARAGRAPH E */
@@ -124,11 +127,13 @@ h2 {
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+    background-color: #343d46;
 }
 .grid img {
     width: 200px;
     height: 250px;
-    margin-top: 20px;    
+    margin-top: 20px;   
+    border-radius: 10px; 
 }
 
 .grid-container {
