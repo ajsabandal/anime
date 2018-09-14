@@ -31,9 +31,22 @@
     <a href="forum.html"> forum </a>
 </nav>
     <!-- NAV END -->
+    <h1>
+        Forums
+    </h1>
+
 <input type="text-forum">
 </input>
 <button class="button-forum"> send </button>
+
+<div class="grid-forum">
+
+    <div class="grid-comments">
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, porro.
+        </p>
+    </div>
+</div>
 
     <!-- FOOTER START -->
     <footer>
@@ -42,6 +55,7 @@
     <!-- FOOTER END -->
     <script>
         "use strict";
+    let buttonForum = document.getElementById("button-forum");
     buttonForum.addEventListener('click', function() {
         alert("Message has been sent!")
     });
