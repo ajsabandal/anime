@@ -107,7 +107,7 @@ h2 {
     padding: 0;
     margin-right: 0;
     color: #343d46;
-    background-color: #ffdfba;
+    background-color: #e7eff6;
     font-family: 'El Messiri', sans-serif;
 }
 /* PARAGRAPH E */
@@ -139,7 +139,7 @@ h2 {
 .grid-container {
     display: grid;
     padding: 2px;
-    background-color: 	#ffdfba;
+    background-color: 	#adcbe3;
     grid-template-columns: auto auto auto auto;
     grid-gap: 10px;
 
